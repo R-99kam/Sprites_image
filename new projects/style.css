@@ -1,0 +1,80 @@
+*{
+    outline: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+body{
+    scroll-behavior: smooth;
+    overflow: hidden;
+    background-color: lightslategray;
+}
+.section{
+    position: relative;
+    padding: 3rem 9%;
+}
+.Sprite{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    padding: 1rem 1.5rem;
+    background-color: #eee;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.Sprite div{
+    width: 130px;
+    height: 80px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 3px;
+}
+.Sprite .first{
+    background: url(images/sprite.png) 0 0;
+}
+.Sprite .second{
+    background: url(images/sprite.png) -135px 0;
+}
+.Sprite .third{
+    background: url(images/sprite.png) -270px 0;
+}
+.Sprite .fourth{
+    background: url(images/sprite.png) -405px 0;
+}
+.Sprite .fifth{
+    background: url(images/sprite.png) -540px 0;
+}
+.Sprite .six{
+    background: url(images/sprite.png) -670px 0;
+    width: 80px;
+}
+.Sprite .seven{
+    background: url(images/sprite.png) -755px 0;
+}
+.Sprite .eight{
+    background: url(images/sprite.png) -890px 0;
+    width: 130px;
+}
+.Sprite .nine{
+    background: url(images/sprite.png) -1020px 0;
+}
+.Sprite .ten{
+    background: url(images/sprite.png) -1147px 0;
+}
+.Sprite .eleven{
+    background: url(images/sprite.png) -3px 125px;
+}
+.Sprite .twele{
+    background: url(images/sprite.png) -135px 125px;
+}
+.Sprite .thirteen{
+    background: url(images/sprite.png) -270px 125px;
+}
+.Sprite .fourteen{
+    background: url(images/sprite.png) -405px 125px;
+}
+.Sprite .fifteen{
+    background: url(images/sprite.png) -540px 125px;
+}
